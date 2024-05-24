@@ -26,7 +26,7 @@ docker-compose -f .devcontainer/docker-compose.yml up
 The app will run on http://localhost:3000 after you build it successfully.
 
 ### Run Spring Authorization Server 
-Execute `SpringAuthorizationServerExampleApplication.java` to start the server.
+Execute `SpringAuthorizationServerExampleApplication.java` in `qrcode-spring-authorization` folder to start the server.
 The server will be accessible at http://localhost:8080.
 
 ### Testing with Postman
@@ -44,5 +44,5 @@ You can use Postman to test the QR code scanning part. First, you should scan th
     "password": "password"
 }
 ```
-This setup allows you to thoroughly test and ensure the authentication process aligns with your operational requirements.
+This setup allows you to thoroughly test and ensure the authentication process with Wekan.
 
