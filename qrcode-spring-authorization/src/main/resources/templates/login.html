@@ -1,0 +1,38 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Spring Authorization Server</title>
+        <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+        <style>
+            body {
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            .container {
+                background-color: white;
+                width: 40%;
+                max-width: 800px;
+                margin: 90px auto;
+                padding: 40px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div class="container" align="center">
+                <h2>Spring Authorization Server</h2>
+                <div><p>請掃描以下Qrcode登入</p></div>
+                <div id="qrcode"></div>
+            </div>
+
+        </div>
+        <script src="/login-qrcode.js"></script>
+
+    </body>
+</html>
