@@ -46,3 +46,5 @@ You can use Postman to test the QR code scanning part. First, you should scan th
 ```
 This setup allows you to thoroughly test and ensure the authentication process with Wekan.
 
+## Reference
+Flow Chart: https://docs.google.com/presentation/d/1CiAiuay5rd1KDDnYwOyu6ud9xk5ZetSQDOMp9DYUKjs/edit#slide=id.g8bb7b0e120_0_0
